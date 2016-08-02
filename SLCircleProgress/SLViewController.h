@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SLViewController.h
 //  SLCircleProgress
 //
 //  Created by 石乐 on 16/8/2.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SLViewController : UIViewController
 
 @end
-

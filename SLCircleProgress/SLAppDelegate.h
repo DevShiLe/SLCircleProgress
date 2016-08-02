@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  SLAppDelegate.h
 //  SLCircleProgress
 //
 //  Created by 石乐 on 16/8/2.
@@ -8,10 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface SLAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
 
 @end
-

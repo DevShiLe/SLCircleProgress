@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		F2FA04FD1D5066A000868F76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FA04FC1D5066A000868F76 /* main.m */; };
-		F2FA05001D5066A000868F76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FA04FF1D5066A000868F76 /* AppDelegate.m */; };
-		F2FA05031D5066A000868F76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FA05021D5066A000868F76 /* ViewController.m */; };
-		F2FA05061D5066A000868F76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2FA05041D5066A000868F76 /* Main.storyboard */; };
 		F2FA05081D5066A000868F76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2FA05071D5066A000868F76 /* Assets.xcassets */; };
 		F2FA050B1D5066A000868F76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2FA05091D5066A000868F76 /* LaunchScreen.storyboard */; };
 		F2FA05161D5066A000868F76 /* SLCircleProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FA05151D5066A000868F76 /* SLCircleProgressTests.m */; };
 		F2FA05211D5066A000868F76 /* SLCircleProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FA05201D5066A000868F76 /* SLCircleProgressUITests.m */; };
+		F2FA05301D5066EB00868F76 /* SLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FA052F1D5066EB00868F76 /* SLAppDelegate.m */; };
+		F2FA05331D50671700868F76 /* SLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FA05321D50671700868F76 /* SLViewController.m */; };
+		F2FA05361D50680100868F76 /* SLCircleProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FA05351D50680100868F76 /* SLCircleProgress.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +37,6 @@
 /* Begin PBXFileReference section */
 		F2FA04F81D5066A000868F76 /* SLCircleProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLCircleProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2FA04FC1D5066A000868F76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F2FA04FE1D5066A000868F76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F2FA04FF1D5066A000868F76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F2FA05011D5066A000868F76 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F2FA05021D5066A000868F76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F2FA05051D5066A000868F76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2FA05071D5066A000868F76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2FA050A1D5066A000868F76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2FA050C1D5066A000868F76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +46,12 @@
 		F2FA051C1D5066A000868F76 /* SLCircleProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLCircleProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2FA05201D5066A000868F76 /* SLCircleProgressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLCircleProgressUITests.m; sourceTree = "<group>"; };
 		F2FA05221D5066A000868F76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2FA052E1D5066EB00868F76 /* SLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLAppDelegate.h; sourceTree = "<group>"; };
+		F2FA052F1D5066EB00868F76 /* SLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLAppDelegate.m; sourceTree = "<group>"; };
+		F2FA05311D50671700868F76 /* SLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLViewController.h; sourceTree = "<group>"; };
+		F2FA05321D50671700868F76 /* SLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLViewController.m; sourceTree = "<group>"; };
+		F2FA05341D50680100868F76 /* SLCircleProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLCircleProgress.h; sourceTree = "<group>"; };
+		F2FA05351D50680100868F76 /* SLCircleProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLCircleProgress.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +102,12 @@
 		F2FA04FA1D5066A000868F76 /* SLCircleProgress */ = {
 			isa = PBXGroup;
 			children = (
-				F2FA04FE1D5066A000868F76 /* AppDelegate.h */,
-				F2FA04FF1D5066A000868F76 /* AppDelegate.m */,
-				F2FA05011D5066A000868F76 /* ViewController.h */,
-				F2FA05021D5066A000868F76 /* ViewController.m */,
-				F2FA05041D5066A000868F76 /* Main.storyboard */,
+				F2FA052E1D5066EB00868F76 /* SLAppDelegate.h */,
+				F2FA052F1D5066EB00868F76 /* SLAppDelegate.m */,
+				F2FA05311D50671700868F76 /* SLViewController.h */,
+				F2FA05321D50671700868F76 /* SLViewController.m */,
+				F2FA05341D50680100868F76 /* SLCircleProgress.h */,
+				F2FA05351D50680100868F76 /* SLCircleProgress.m */,
 				F2FA05071D5066A000868F76 /* Assets.xcassets */,
 				F2FA05091D5066A000868F76 /* LaunchScreen.storyboard */,
 				F2FA050C1D5066A000868F76 /* Info.plist */,
@@ -202,6 +204,7 @@
 		F2FA04F01D5066A000868F76 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SL;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "石乐";
 				TargetAttributes = {
@@ -254,7 +257,6 @@
 			files = (
 				F2FA050B1D5066A000868F76 /* LaunchScreen.storyboard in Resources */,
 				F2FA05081D5066A000868F76 /* Assets.xcassets in Resources */,
-				F2FA05061D5066A000868F76 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,9 +281,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2FA05031D5066A000868F76 /* ViewController.m in Sources */,
-				F2FA05001D5066A000868F76 /* AppDelegate.m in Sources */,
 				F2FA04FD1D5066A000868F76 /* main.m in Sources */,
+				F2FA05331D50671700868F76 /* SLViewController.m in Sources */,
+				F2FA05301D5066EB00868F76 /* SLAppDelegate.m in Sources */,
+				F2FA05361D50680100868F76 /* SLCircleProgress.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,14 +320,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F2FA05041D5066A000868F76 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F2FA05051D5066A000868F76 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F2FA05091D5066A000868F76 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -425,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SLCircleProgress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.umeng.SLCircleProgress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -436,6 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SLCircleProgress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.umeng.SLCircleProgress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
